@@ -13,8 +13,6 @@ class NetworkSecurityException(Exception):
         return "Error occured in python script name [{0}] line number [{1}] error message[{2}]"
         self.file_name,self.lineno,str(self.error_message)
         
-        
-    
 if __name__=='__main__':
     try:
         logger.logging.info("Enter the try block")
